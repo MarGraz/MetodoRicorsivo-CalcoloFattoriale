@@ -24,7 +24,7 @@ namespace MetodoRicorsivo_CalcoloFattoriale
             else
             {   //fattoriale è il risultato di numero moltiplicato per tutti i numeri interi positivi minori o uguali a tale numero
                 //esempio: fattoriale di 5 = 5 * 4 * 3 * 2 * 1
-                //Fattoriale è qui un metodo recursivo, ossia che richiama se stesso
+                //Fattoriale è qui un metodo ricorsivo, ossia che richiama se stesso
                 int risultato = n * Fattoriale(n - 1);
                 return risultato;
             }
